@@ -1,0 +1,64 @@
+h2{
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  color: white;
+  align-items: center;
+  font-family: sans serfif, helvetica;
+  background-color: #b2c2bf;
+  border: groove;
+}
+.heading{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  color: white;
+  align-items: center;
+  font-family: sans serfif, helvetica;
+  font-size: 40px;
+  background-color: #b2c2bf;
+}
+.nav-bar{
+  background-color: rgb(42,49,80);
+  color: white;
+  position: fixed;
+  margin: 0em 0em 0em 18em;
+  border: solid;
+}
+.nav-bar a{
+  color: white;
+}
+.nav-bar a:hover{
+  color: black;
+  background-color: #b2c2bf;
+  border: dotted;
+}
+.nav-link{
+  padding: 0.5em;
+  font-family: sans serfif, helvetica;
+  font-size: 2em;
+}
+.video-div{
+  display: flex;
+  justify-content: center;
+  border: solid;
+  background-color:#2a3150;
+  margin: 10px 400px 10px 400px
+}
+.form-grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background: #b2c2bf;
+  border: groove;
+  align-items: center;
+  padding: 10px;
+  font-family: sans serfif, helvetica;
+}
+
+ @media only screen and (max-width: 600px) {
+  .form-grid{
+   grid-template-columns: auto;  
+   width: 100%;
+  }
+}
